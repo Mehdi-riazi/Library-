@@ -4,7 +4,7 @@ function Layouts({children}) {
     <>
     <header className={styles.header }>
         <h1>Library</h1>
-        <p><a href="https://github.com/Mehdi-riazi/Library-online">MY Github</a> | Book App </p>
+        <p><a href="https://github.com/Mehdi-riazi">MY Github</a> | Book App </p>
     </header>
     {children}
     <footer className={styles.footer}>

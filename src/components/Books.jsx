@@ -1,11 +1,14 @@
 import {books} from "../constants/mockData"
+import BookCard from "./BookCard"
 
 
 function Books() {
-    console.log(books)
   return (
-    <div>Books</div>
+    <div>
+        <div>{books.map((book) => <BookCard key={book.id} data={book}/>)}</div>
+        <div></div>
+    </div>
   )
 }
 
-export default Books
+export default Books 
